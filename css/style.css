@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* css reset */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("../images/Background.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #45b6eb;
+    color: #fff;
+    font-size: 1.2vw;
+   }
+
+  #heading {
+    max-width: 750px;
+    margin: 4rem auto;
+    padding: .6rem;
+  }
+  #main {
+      padding: 0% 20% 0% 20%;
+  }
