@@ -14,14 +14,14 @@
     <div id="main">
       <form id="survey-form">
         <div id="input-fields">
-            <!-- <label id="name-label"><b>Name:</b></label> -->
+            <label id="name-label"><b>Name:</b></label>
             <input id="name" type="name" name="name" class="form" required placeholder="Name"><br>
             <br>
-            <!-- <label id="email-label"><b>Email:</b></label> -->
+            <label id="email-label"><b>Email:</b></label>
             <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
             <br>
             <label id="number-label"><b>Age(optional): </b></label>
-            <input id="number" type="number" name="number" class="form">
+            <input min="1" max="100" id="number" type="number" name="number" class="form">
          </div>
         </form>
     </div>
