@@ -15,14 +15,25 @@
       <form id="survey-form">
         <div id="input-fields">
             <label id="name-label"><b>Name:</b></label>
-            <input id="name" type="name" name="name" class="form" required placeholder="Name"><br>
+            <input id="name" type="name" name="name" class="form" required placeholder="Enter Your Name"><br>
             <br>
             <label id="email-label"><b>Email:</b></label>
-            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <input id="email" type="email" name="email" class="form" required placeholder="Enter Your Email Address"><br>
             <br>
             <label id="number-label"><b>Age(optional): </b></label>
-            <input min="1" max="100" id="number" type="number" name="number" class="form">
+            <input min="1" max="100" id="number" type="number" name="number" class="form" placeholder="Select Your Age">
          </div>
+         <div id="dropdown-div"><br>
+          <label id="dropdown-label"><strong>What option best describes your current role? </strong></label><br>
+          <select id="dropdown" name="role-lang" class="form">
+              <option value="Select Current Role">Select Current Role</option>
+              <option value="Student">Student</option>
+              <option value="full-time-job">Full-Time Job</option>
+              <option value="full-time-learner">Full-Time Learner</option>
+              <option value="Prefer Not To Say">Prefer Not To Say</option>
+              <option value="Others">Others</option>
+          </select>
+       </div>
         </form>
     </div>
     <script  src="js/index.js"></script>
